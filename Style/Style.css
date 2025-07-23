@@ -14,7 +14,6 @@
   font-style: normal;
 }
 
-
 /* share color */
 
 .orange{
@@ -102,9 +101,7 @@
     font-size: 1.375rem;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
-}
-.banner-content{
-    margin-bottom: 13px;
+    margin-bottom: 0%;
 }
 .banner-img{
     width: 100%;
@@ -115,4 +112,77 @@
         flex-direction: column-reverse;
     }
 }
+
+/* plant part */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.plant-title, .plant-paragraph{
+    text-align: center;
+}
+.plant-part{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.plant-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 120px;
+}
+.plant-paragraph{
+    font-size: 1.375rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+}
+.card-section{
+    margin-top: 49px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:25px;
+}
+.card img{
+    width: 100%;
+   
+}
+.card{
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+}
+.card-name{
+    font-size: 1.375rem;
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: center;
+    color: #111111;
+}
+.card-cost{
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+    color: #111111;
+}
+.btn-style{
+        background-color: #E95A08;
+        color: #FFFFFF;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 26px 50px;
+        width: 100%;
+        margin-top: 30px;
+        border: none;
+
+}
+
+/* card responsive */
+@media screen and (max-width: 500px){
+    .card-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
 
