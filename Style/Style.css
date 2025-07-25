@@ -307,12 +307,12 @@
 
     .ana-bg::before {
       background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.1)),
-                        url('/assets/deal-ana.png');
+                        url('../assets/deal-ana.png');
     }
 
     .zabo-bg::before {
       background-image: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.1)),
-                        url('/assets/deal-zabo.png');
+                        url('../assets/deal-zabo.png');
     }
 
     .deal-card h3 {
@@ -365,7 +365,7 @@
 /* Join section */
 
 .join-part {
-  background-image: url('/assets/news-letter-bg.png');
+  background-image: url('../assets/news-letter-bg.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
